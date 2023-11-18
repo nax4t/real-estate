@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="header bg-slate-200 shadow-md">
+    <header className="header bg-red-800 shadow-md">
         <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
             <Link to='/'>
                 <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
-                    <span className="text-slate-500">Al-Noor</span>
-                    <span className="text-slate-700">Estate</span>
+                    <span className="text-orange-400 pr-2">Al-Noor</span>
+                    <span className="text-orange-500">Estate</span>
                 </h1>
             </Link>
 
@@ -19,13 +19,13 @@ const Header = () => {
 
             <ul className='flex gap-3'>
                 <Link to='/'>
-                    <li className='hidden sm:inline p-2 text-slate-700 hover:bg-slate-500 hover:text-slate-100 rounded-sm transition-all cursor-pointer'>Home</li>
+                    <li className='hidden sm:inline p-2 text-orange-50 hover:bg-orange-200 hover:text-slate-900 rounded-sm transition-all cursor-pointer'>Home</li>
                 </Link>
                 <Link to='/about'>
-                    <li className='hidden sm:inline p-2 text-slate-700 hover:bg-slate-500 hover:text-slate-100 rounded-sm transition-all cursor-pointer'>About</li>
+                    <li className='hidden sm:inline p-2 text-orange-50 hover:bg-orange-200 hover:text-slate-900 rounded-sm transition-all cursor-pointer'>About</li>
                 </Link>
                 <Link to='/sign-in'>
-                    <li className='sm:inline p-2 text-slate-700 hover:bg-slate-500 hover:text-slate-100 rounded-sm transition-all cursor-pointer'>Sign In</li>
+                    <li className='sm:inline p-2 text-orange-50 hover:bg-orange-200 hover:text-slate-900 rounded-sm transition-all cursor-pointer'>Sign In</li>
                 </Link>
             </ul>
         </div>
